@@ -1,0 +1,23 @@
+*{margin:0; padding: 0}
+
+.purple_square {width: 200px; 
+	height: 200px;
+	background: #850000;
+	float:left;
+}
+
+
+.white_square {width: 200px; 
+	height: 200px;
+	background: none;
+	float:left;
+	}
+
+.image_possition {
+height: 90%; width: 90%; 
+ vertical-align: middle;
+	
+}
+
+.clear {
+    clear: left;} /
