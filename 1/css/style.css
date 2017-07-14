@@ -1,49 +1,48 @@
 *{margin: 0px; padding: 0px;}
-p, h3 {font-family: Tahoma, sans-serif;}
 
-.border1 {
- border: 1px solid white;
- margin: 50px;
- width: 400px; height: 550px;
-}
+p,h3,a {font-family: Tahoma, sans-serif;}
+h3{font-weight: normal;
+font-size: 22px;}
 
-.border2{
+
+.border{
 	border: 2px solid #5a5a5a;
-	margin: 00px;
-	padding: 0px;
 	width: 380px; height: 530px;
+	margin: 10px;
+	text-align:center;
 }
 
-.titles{font-weight: normal;
-font-size: 22px;
+.title1 {
 color: #242424;
-line-height: 33px;}
+height: 92px; 
+width: 380px;
+display: table-cell;
+vertical-align: middle;
+}
+
 
 .border3_green{
-	margin: 0px;
-	padding: 0px;
-	width: 190px; height: 31px;
+	width: 190px; 
+	height: 31px;
 	background: #8bc144;
-	 box-shadow: -3px 3px 0px 0px #9c9c9c;
+	box-shadow: -3px 3px 0px 0px #9c9c9c;
 }
 
-.border4_red{
-	margin: 0px 62px;
-	padding: 0px;
-	width: 230px; height: 47px;
-	background: #f00;
+.title2_white{font-size: 22px;
+ color: white;
 }
 
-.border4_red2{
-	margin: 0px 0px;
-	padding: 0px;
-	width: 229px; height: 4px;
-	background: #850000;
-}
+.price {line-height: 66px; 
+	font-size: 31px; 
+	color: black; }
 
 .buy{font-size: 28px;
  color: white; 
- text-align: center;
  text-shadow: -1px 1px black;
- line-height: 46px;
+ text-decoration: none; 
+ padding: 5px 70px;
+ background: #f00;
+ box-shadow: 0 -4px #850000 inset;
 }
+a.buy:hover { background: blue; } /* при наведении курсора мышки */
+a.buy:active { background: green; } /* при нажатии */}
