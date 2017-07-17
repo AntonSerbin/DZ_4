@@ -40,9 +40,13 @@ vertical-align: middle;
  color: white; 
  text-shadow: -1px 1px black;
  text-decoration: none; 
- padding: 5px 70px;
+ width:150px;
+ height:42px;
  background: #f00;
  box-shadow: 0 -4px #850000 inset;
-}
+ display:block;
+ margin: auto;
+ text-align:center;
+    }
 a.buy:hover { background: blue; } /* при наведении курсора мышки */
 a.buy:active { background: green; } /* при нажатии */}
